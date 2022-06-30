@@ -8,6 +8,8 @@ import streamlit as st
 # PASSWORD = 'hophop'
 
 st.text("Du texte pour tester des truuuuqueuh")
+EMAIL = st.secrets.EMAIL
+PASSWORD = st.secrets.PASSWORD
 st.write(EMAIL)
 st.write(PASSWORD)
 # st.write(os.getenv("EMAIL"))
